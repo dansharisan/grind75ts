@@ -6,5 +6,5 @@ function isAnagram(s: string, t: string): boolean {
     sArr.sort();
     tArr.sort();
     
-    return JSON.stringify(sArr) === JSON.stringify(tArr)
+    return JSON.stringify(sArr) === JSON.stringify(tArr);
 };
